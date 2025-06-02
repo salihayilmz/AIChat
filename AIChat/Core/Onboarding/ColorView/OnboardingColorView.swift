@@ -9,7 +9,8 @@ import SwiftUI
 
 struct OnboardingColorView: View {
     
-    @State private var selectedColor: Color? = nil
+    @State private var selectedColor: Color?
+    
     let profileColors: [Color] = [.red, .green, .orange, .blue, .mint, .purple, .cyan, .teal, .indigo]
     
     var body: some View {
