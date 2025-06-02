@@ -23,8 +23,8 @@ struct CarouselView<Content: View, T: Hashable>: View {
                                 content
                                     .scaleEffect(phase.isIdentity ? 1 : 0.9)
                             })
-                                .containerRelativeFrame(.horizontal, alignment: .center)
-                                .id(item)
+                            .containerRelativeFrame(.horizontal, alignment: .center)
+                            .id(item)
                     }
                 }
             }
