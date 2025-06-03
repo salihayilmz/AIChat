@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4A9B51882DE76391001A8396 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4A9B51872DE76391001A8396 /* SDWebImageSwiftUI */; };
+		4ADD010E2DEF2CAC00C22689 /* SwiftfulUtilities in Frameworks */ = {isa = PBXBuildFile; productRef = 4ADD010D2DEF2CAC00C22689 /* SwiftfulUtilities */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A9B51882DE76391001A8396 /* SDWebImageSwiftUI in Frameworks */,
+				4ADD010E2DEF2CAC00C22689 /* SwiftfulUtilities in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +121,7 @@
 			name = AIChat;
 			packageProductDependencies = (
 				4A9B51872DE76391001A8396 /* SDWebImageSwiftUI */,
+				4ADD010D2DEF2CAC00C22689 /* SwiftfulUtilities */,
 			);
 			productName = AIChat;
 			productReference = 4A5958922DE5DC0200D5BFB6 /* AIChat.app */;
@@ -204,6 +207,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				4A9B51862DE76391001A8396 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				4ADD010C2DEF2CAC00C22689 /* XCRemoteSwiftPackageReference "SwiftfulUtilities" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4A5958932DE5DC0200D5BFB6 /* Products */;
@@ -611,6 +615,14 @@
 				minimumVersion = 3.1.3;
 			};
 		};
+		4ADD010C2DEF2CAC00C22689 /* XCRemoteSwiftPackageReference "SwiftfulUtilities" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulUtilities.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.6;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -618,6 +630,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4A9B51862DE76391001A8396 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
+		};
+		4ADD010D2DEF2CAC00C22689 /* SwiftfulUtilities */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4ADD010C2DEF2CAC00C22689 /* XCRemoteSwiftPackageReference "SwiftfulUtilities" */;
+			productName = SwiftfulUtilities;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
