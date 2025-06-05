@@ -56,23 +56,23 @@ struct ChatMessageModel: Identifiable {
                     chatId: "chat1",
                     authorId: "user2",
                     content: "I'm doing well, thanks!",
-                    seenByIds: ["user1"],
+                    seenByIds: ["user2"],
                     dateCreated: now.addingTimeInterval(minutes: -25)
                 ),
                 ChatMessageModel(
                     id: "msg3",
                     chatId: "chat2",
-                    authorId: "user3",
+                    authorId: "user1",
                     content: "Let’s meet tomorrow at 10.",
-                    seenByIds: [],
+                    seenByIds: ["user2"],
                     dateCreated: now.addingTimeInterval(hours: -2)
                 ),
                 ChatMessageModel(
                     id: "msg4",
                     chatId: "chat3",
-                    authorId: "user4",
+                    authorId: "user2",
                     content: "Sounds good!",
-                    seenByIds: ["user3"],
+                    seenByIds: ["user4"],
                     dateCreated: now.addingTimeInterval(days: -1)
                 )
             ]
